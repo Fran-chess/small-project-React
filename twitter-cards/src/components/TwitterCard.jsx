@@ -27,7 +27,7 @@ const TwitterCard = ({ children, userName, initialIsFollowing }) => {
             onMouseEnter={() => setIsHovered(true)}
             onMouseLeave={() => setIsHovered(false)}
             onClick={handleClick}
-            className={`font-bold w-40 h-10 rounded-3xl cursor-pointer transition-colors  ${
+            className={`font-bold w-32 h-10 rounded-3xl cursor-pointer transition-colors  ${
               isFollowing ? 
               "border border-neutral-500 hover:border-red-500 hover:text-red-700 hover:bg-transparent":
               "border border-neutral-500 bg-transparent text-white hover:bg-neutral-900"
